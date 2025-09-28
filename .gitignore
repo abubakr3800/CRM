@@ -1,0 +1,82 @@
+# CRM System .gitignore
+
+# Logs
+logs/
+*.log
+
+# Backups
+backups/
+*.sql.backup
+
+# Uploads
+uploads/
+temp_uploads/
+
+# Temporary files
+temp_files/
+*.tmp
+*.temp
+
+# Cache
+cache/
+*.cache
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP
+*.php~
+*.php.bak
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database dumps (keep only schema)
+*.sql
+!database/shortcircuit_crm.sql
+!database/database_fixes.sql
+!database/safe_database_migration.sql
+!database/update_roles.sql
+
+# Installation files
+installed.lock
+install.lock
+
+# Debug files
+debug_*
+test_*
+check_*
+fix_*
+analyze_*
+create_*
+extract_*
+import_*
+migrate_*
+run_*
+troubleshoot.php
+explain_*.php
+enhance_*.php
+complete_reset.php
+install_simple.php
+login_test.php
+reset_admin_password.php
+update_roles.php
+test.php
+
+# Batch files
+*.bat
+
+# Documentation drafts
+Untitled*
+*.mmd

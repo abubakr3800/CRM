@@ -1,0 +1,18 @@
+# Simple .htaccess for CRM System
+# Minimal configuration to avoid server errors
+
+# Disable directory browsing
+Options -Indexes
+
+# Basic security - protect sensitive files
+<Files "*.sql">
+    Require all denied
+</Files>
+
+<Files "*.log">
+    Require all denied
+</Files>
+
+<Files "installed.lock">
+    Require all denied
+</Files>
